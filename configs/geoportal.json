@@ -1,0 +1,115 @@
+{
+ "slug": "geoportal",
+ "url": "geo-portal.fastapicloud.dev",
+ "voice": "When someone asks ChatGPT for a business like yours, does your name come up? Probably not. This portal audits your AI visibility — how ChatGPT, Gemini, and search engines see your business — and shows you exactly how to fix it. Be the answer AI gives, not the business it skips. Comment LINK for a free visibility check.",
+ "hook": [
+  {
+   "text": "AI CAN'T FIND",
+   "size": 140,
+   "color": "white"
+  },
+  {
+   "text": "YOUR BUSINESS?",
+   "size": 140,
+   "color": "red"
+  },
+  {
+   "text": "fix that",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "GEO Audit",
+   "title": "Visibility score",
+   "headline": "See what AI says about you",
+   "sub": "audit across engines",
+   "rows": [
+    {
+     "label": "ChatGPT mentions",
+     "value": "0",
+     "level": "red"
+    },
+    {
+     "label": "Gemini mentions",
+     "value": "2",
+     "level": "amber"
+    },
+    {
+     "label": "Google presence",
+     "value": "Weak",
+     "level": "amber"
+    },
+    {
+     "label": "Competitors cited",
+     "value": "5",
+     "level": "red"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Fix Plan",
+   "title": "4 fixes queued",
+   "progress": [
+    2,
+    4
+   ],
+   "progress_label": "fixes",
+   "headline": "Fix plan included",
+   "sub": "step-by-step, no guesswork",
+   "rows": [
+    {
+     "label": "llms.txt added",
+     "done": true
+    },
+    {
+     "label": "Schema markup done",
+     "done": true
+    },
+    {
+     "label": "FAQ content drafted",
+     "done": false
+    },
+    {
+     "label": "Review signals boosted",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "ChatGPT",
+   "sub": "be the answer"
+  },
+  {
+   "title": "Gemini",
+   "sub": "get cited"
+  },
+  {
+   "title": "llms.txt",
+   "sub": "AI-readable site"
+  },
+  {
+   "title": "Leads",
+   "sub": "chat captures them"
+  }
+ ],
+ "headline": "Rank where it matters now",
+ "sub": "AI search is the new Google",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free visibility check",
+  "see your AI score"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

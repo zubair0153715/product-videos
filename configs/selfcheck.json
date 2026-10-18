@@ -1,0 +1,110 @@
+{
+ "slug": "selfcheck",
+ "url": "clinic-demo.fastapicloud.dev/selfcheck",
+ "voice": "Is your factory GMP-ready? Answer ten quick questions and get an instant readiness snapshot — free. PharmaReg Self-Check shows where you stand on DRAP compliance in two minutes, then connects you to a full audit on WhatsApp. No signup, no cost — just honest answers about your plant. Comment LINK to try it free.",
+ "hook": [
+  {
+   "text": "GMP-READY?",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "2 MINUTES.",
+   "size": 160,
+   "color": "teal"
+  },
+  {
+   "text": "find out free",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "Self-Check",
+   "title": "Your snapshot",
+   "headline": "Free 10-question quiz",
+   "sub": "instant DRAP readiness score",
+   "rows": [
+    {
+     "label": "Questions",
+     "value": "10 / 10"
+    },
+    {
+     "label": "Readiness",
+     "value": "62%",
+     "level": "amber"
+    },
+    {
+     "label": "Strongest area",
+     "value": "Personnel",
+     "level": "teal"
+    },
+    {
+     "label": "Weakest area",
+     "value": "Documentation",
+     "level": "red"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Next step",
+   "title": "Go deeper anytime",
+   "progress": [
+    1,
+    3
+   ],
+   "progress_label": "steps",
+   "headline": "Then go deeper",
+   "sub": "one tap to WhatsApp",
+   "rows": [
+    {
+     "label": "Quiz completed",
+     "done": true
+    },
+    {
+     "label": "WhatsApp connect",
+     "done": false
+    },
+    {
+     "label": "Full 48-q audit",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "10 questions",
+   "sub": "2 minutes"
+  },
+  {
+   "title": "Free",
+   "sub": "no signup"
+  },
+  {
+   "title": "Instant score",
+   "sub": "know your gaps"
+  },
+  {
+   "title": "WhatsApp",
+   "sub": "continue there"
+  }
+ ],
+ "headline": "Start free, upgrade smart",
+ "sub": "lead-gen that helps first",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Try it free",
+  "link in comments"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

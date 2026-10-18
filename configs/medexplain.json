@@ -1,0 +1,107 @@
+{
+ "slug": "medexplain",
+ "url": "clinic-demo.fastapicloud.dev/study",
+ "voice": "Textbooks too boring to finish? MedExplain turns book chapters into short Urdu-narrated videos — upload a PDF, get animated explainers section by section. Proper Urdu subtitles on every frame, calm narration, zero fluff. Built for Pakistani pharmacy students who learn better by watching. Chapter one of pharmacology is already live. Comment LINK to see it.",
+ "hook": [
+  {
+   "text": "BOOKS TOO",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "BORING?",
+   "size": 170,
+   "color": "teal"
+  },
+  {
+   "text": "watch instead",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "MedExplain",
+   "title": "Chapter 1 ready",
+   "headline": "Chapters become videos",
+   "sub": "upload PDF, get video",
+   "rows": [
+    {
+     "label": "Book",
+     "value": "Pharmacology"
+    },
+    {
+     "label": "Sections",
+     "value": "12 videos"
+    },
+    {
+     "label": "Narration",
+     "value": "Urdu"
+    },
+    {
+     "label": "Length",
+     "value": "~3 min"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "How it works",
+   "title": "3 steps",
+   "progress": [
+    3,
+    3
+   ],
+   "progress_label": "steps",
+   "headline": "Zero editing needed",
+   "sub": "slides + subtitles included",
+   "rows": [
+    {
+     "label": "PDF uploaded",
+     "done": true
+    },
+    {
+     "label": "Sections extracted",
+     "done": true
+    },
+    {
+     "label": "Urdu video rendered",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Upload",
+   "sub": "any book PDF"
+  },
+  {
+   "title": "Urdu",
+   "sub": "narration + subs"
+  },
+  {
+   "title": "Sections",
+   "sub": "bite-size clips"
+  },
+  {
+   "title": "Free",
+   "sub": "chapter 1 live"
+  }
+ ],
+ "headline": "Learn by watching",
+ "sub": "made for Pharm-D life",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Watch chapter 1",
+  "free study videos"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

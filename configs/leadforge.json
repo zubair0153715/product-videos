@@ -1,0 +1,117 @@
+{
+ "slug": "leadforge",
+ "url": "clinic-demo.fastapicloud.dev/discovery",
+ "voice": "Drug discovery takes years and millions. LeadForge compresses the early hunt — pick a disease target, and it screens live ChEMBL bioactivity data, filters for drug-likeness and safety flags, and ranks your best leads in a downloadable report. Research triage, not magic. Five runs free every month — no card, just science. Comment LINK for five free runs.",
+ "hook": [
+  {
+   "text": "DRUG HUNT",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "IN DAYS?",
+   "size": 170,
+   "color": "teal"
+  },
+  {
+   "text": "start here",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "LeadForge",
+   "title": "Run complete · PCSK9",
+   "headline": "Live data, ranked leads",
+   "sub": "ChEMBL to ADMET to report",
+   "rows": [
+    {
+     "label": "Bioactivities",
+     "value": "53 screened"
+    },
+    {
+     "label": "Leads ranked",
+     "value": "26"
+    },
+    {
+     "label": "Top Ki",
+     "value": "0.011 nM",
+     "level": "teal"
+    },
+    {
+     "label": "Rediscovery",
+     "value": "2 known drugs",
+     "level": "teal"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Pipeline",
+   "title": "5 stages done",
+   "progress": [
+    5,
+    5
+   ],
+   "progress_label": "stages",
+   "headline": "From target to shortlist",
+   "sub": "downloadable JSON + report",
+   "rows": [
+    {
+     "label": "Target fetched",
+     "done": true
+    },
+    {
+     "label": "ChEMBL screened",
+     "done": true
+    },
+    {
+     "label": "ADMET filtered",
+     "done": true
+    },
+    {
+     "label": "PAINS removed",
+     "done": true
+    },
+    {
+     "label": "Ranked + report",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "ChEMBL",
+   "sub": "live bioactivity"
+  },
+  {
+   "title": "ADMET",
+   "sub": "safety filters"
+  },
+  {
+   "title": "PAINS",
+   "sub": "bad actors out"
+  },
+  {
+   "title": "Ranked",
+   "sub": "best first"
+  }
+ ],
+ "headline": "Triage, not guesswork",
+ "sub": "your lab tests the winners",
+ "cta": [
+  "Comment",
+  "LINK",
+  "5 free runs/mo",
+  "no card needed"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

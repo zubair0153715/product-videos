@@ -1,0 +1,123 @@
+{
+ "slug": "secureapk",
+ "url": "clinic-demo.fastapicloud.dev/apkaudit",
+ "voice": "Shipped an Android app? Hidden trackers, leaked API keys, and dangerous permissions could be inside it right now. SecureAPK scans your APK in minutes — permissions, secrets, trackers — and hands you a fix bundle your developer can apply today. Three free scans every month, no signup needed for the free tier. Comment LINK for your first free audit.",
+ "hook": [
+  {
+   "text": "YOUR APP",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "HAS A LEAK?",
+   "size": 150,
+   "color": "red"
+  },
+  {
+   "text": "find out",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "SecureAPK",
+   "title": "APK Security Report",
+   "headline": "Static audit in minutes",
+   "sub": "permissions · secrets · trackers",
+   "rows": [
+    {
+     "label": "Dangerous permissions",
+     "value": "7 flagged",
+     "level": "red"
+    },
+    {
+     "label": "Hardcoded secrets",
+     "value": "3 found",
+     "level": "red"
+    },
+    {
+     "label": "Ad trackers",
+     "value": "5 detected",
+     "level": "amber"
+    },
+    {
+     "label": "Overall risk",
+     "value": "HIGH",
+     "level": "red"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Fix Bundle",
+   "title": "Developer fix list",
+   "progress": [
+    3,
+    7
+   ],
+   "progress_label": "fixes",
+   "headline": "Fix bundle included",
+   "sub": "your dev applies it today",
+   "rows": [
+    {
+     "label": "Remove location perm",
+     "done": true
+    },
+    {
+     "label": "Rotate exposed API key",
+     "done": true
+    },
+    {
+     "label": "Strip debug tracker",
+     "done": true
+    },
+    {
+     "label": "Encrypt local backup",
+     "done": false
+    },
+    {
+     "label": "Obfuscate auth token",
+     "done": false
+    },
+    {
+     "label": "Update target SDK",
+     "done": false
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Permissions",
+   "sub": "risky ones flagged"
+  },
+  {
+   "title": "Secrets",
+   "sub": "keys in code"
+  },
+  {
+   "title": "Trackers",
+   "sub": "ad SDKs exposed"
+  },
+  {
+   "title": "Score",
+   "sub": "0–100 risk grade"
+  }
+ ],
+ "headline": "Know before you ship",
+ "sub": "static-only · APKs auto-delete in 7 days",
+ "cta": [
+  "Comment",
+  "LINK",
+  "First scan free",
+  "3 free scans every month"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

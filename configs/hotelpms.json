@@ -1,0 +1,112 @@
+{
+ "slug": "hotelpms",
+ "url": "clinic-demo.fastapicloud.dev/hotelpms",
+ "voice": "Front desk chaos? Double bookings, lost bills, tax headaches. This hotel PMS runs your whole property — rooms, restaurant, housekeeping, and FBR-compliant invoices with QR codes, in Urdu or English. Inventory, staff payroll, and thermal receipts included — built for guest houses and hotels across Pakistan. One dashboard, your entire hotel. Comment LINK for a free demo login.",
+ "hook": [
+  {
+   "text": "FRONT DESK",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "CHAOS?",
+   "size": 170,
+   "color": "red"
+  },
+  {
+   "text": "end it",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "Hotel PMS",
+   "title": "Tonight's occupancy",
+   "headline": "Your whole hotel, one screen",
+   "sub": "rooms · POS · housekeeping",
+   "rows": [
+    {
+     "label": "Rooms occupied",
+     "value": "9 / 12"
+    },
+    {
+     "label": "Check-ins today",
+     "value": "4"
+    },
+    {
+     "label": "Restaurant sales",
+     "value": "Rs 18,500"
+    },
+    {
+     "label": "Housekeeping",
+     "value": "2 pending",
+     "level": "amber"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "FBR Invoice",
+   "title": "Bill #1042 ready",
+   "progress": [
+    4,
+    4
+   ],
+   "progress_label": "steps",
+   "headline": "Tax-compliant billing",
+   "sub": "FBR-ready invoices with QR",
+   "rows": [
+    {
+     "label": "Room charges added",
+     "done": true
+    },
+    {
+     "label": "SRB tax applied",
+     "done": true
+    },
+    {
+     "label": "QR code generated",
+     "done": true
+    },
+    {
+     "label": "80mm receipt printed",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Rooms",
+   "sub": "12-room rack"
+  },
+  {
+   "title": "Restaurant",
+   "sub": "POS lite"
+  },
+  {
+   "title": "FBR",
+   "sub": "SRB tax + QR"
+  },
+  {
+   "title": "Urdu",
+   "sub": "full RTL mode"
+  }
+ ],
+ "headline": "Built for Pakistani hotels",
+ "sub": "guest house to marriage hall",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free demo access",
+  "try the front desk today"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

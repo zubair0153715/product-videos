@@ -1,0 +1,110 @@
+{
+ "slug": "mediscribe",
+ "url": "clinic-demo.fastapicloud.dev/mediscribe",
+ "voice": "Which drug for this patient — and what dose? MediScribe is a research prototype that checks renal and hepatic dosing, flags pharmacogenomic risks across twelve genes, and pulls real FDA adverse-event data. Eighty-one drugs verified against FDA labels, with clear warnings where data is thin. A study tool for future pharmacists, not medical advice. Comment LINK to explore the demo.",
+ "hook": [
+  {
+   "text": "WHICH DRUG?",
+   "size": 160,
+   "color": "white"
+  },
+  {
+   "text": "WHICH DOSE?",
+   "size": 160,
+   "color": "teal"
+  },
+  {
+   "text": "check first",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "MediScribe",
+   "title": "Dose check",
+   "headline": "Renal + hepatic dosing",
+   "sub": "81 FDA-verified drugs",
+   "rows": [
+    {
+     "label": "Drug",
+     "value": "Gentamicin"
+    },
+    {
+     "label": "Kidney function",
+     "value": "eGFR 42"
+    },
+    {
+     "label": "Status",
+     "value": "Dose reduced",
+     "level": "amber"
+    },
+    {
+     "label": "Warning",
+     "value": "TDM advised",
+     "level": "red"
+    }
+   ]
+  },
+  {
+   "type": "rows",
+   "header": "PGx",
+   "title": "DNA report",
+   "headline": "Your genes, your drugs",
+   "sub": "CPIC-guided badges",
+   "rows": [
+    {
+     "label": "Genes analyzed",
+     "value": "12"
+    },
+    {
+     "label": "Medicines mapped",
+     "value": "70"
+    },
+    {
+     "label": "Red flags",
+     "value": "2",
+     "level": "red"
+    },
+    {
+     "label": "Green lights",
+     "value": "54",
+     "level": "teal"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Dosing",
+   "sub": "kidney + liver"
+  },
+  {
+   "title": "PGx",
+   "sub": "12 genes"
+  },
+  {
+   "title": "FAERS",
+   "sub": "real FDA data"
+  },
+  {
+   "title": "Study",
+   "sub": "not advice"
+  }
+ ],
+ "headline": "Research prototype",
+ "sub": "built by a Pharm-D student",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Explore the demo",
+  "free research tool"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

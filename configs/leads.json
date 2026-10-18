@@ -1,0 +1,116 @@
+{
+ "slug": "leads",
+ "url": "clinic-demo.fastapicloud.dev/leads",
+ "voice": "Tire-kickers waste your agents' time. This WhatsApp qualifier chats with every new lead — budget, location, bedrooms, timeline — and scores them hot, warm, or cold before your team ever calls. In English and Arabic, around the clock — built for Gulf real estate. Your agents only talk to buyers. Comment LINK for a free demo.",
+ "hook": [
+  {
+   "text": "TIRE-KICKERS",
+   "size": 140,
+   "color": "white"
+  },
+  {
+   "text": "WASTING TIME?",
+   "size": 140,
+   "color": "red"
+  },
+  {
+   "text": "filter them",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "Lead Qualifier",
+   "title": "New lead scored",
+   "headline": "Qualified in 2 minutes",
+   "sub": "budget to timeline, automatic",
+   "rows": [
+    {
+     "label": "Budget",
+     "value": "AED 1.2M"
+    },
+    {
+     "label": "Location",
+     "value": "Dubai Marina"
+    },
+    {
+     "label": "Bedrooms",
+     "value": "2"
+    },
+    {
+     "label": "Timeline",
+     "value": "3 months"
+    },
+    {
+     "label": "Score",
+     "value": "HOT",
+     "level": "teal"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Chat flow",
+   "title": "Qualification done",
+   "progress": [
+    4,
+    4
+   ],
+   "progress_label": "steps",
+   "headline": "Agents get hot leads only",
+   "sub": "warm and cold scored too",
+   "rows": [
+    {
+     "label": "Intent captured",
+     "done": true
+    },
+    {
+     "label": "Budget confirmed",
+     "done": true
+    },
+    {
+     "label": "Viewing booked",
+     "done": true
+    },
+    {
+     "label": "Agent notified",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Budget",
+   "sub": "first question"
+  },
+  {
+   "title": "Timeline",
+   "sub": "serious or not"
+  },
+  {
+   "title": "HOT/WARM/COLD",
+   "sub": "auto score"
+  },
+  {
+   "title": "EN/AR",
+   "sub": "Gulf-ready"
+  }
+ ],
+ "headline": "Stop chasing, start closing",
+ "sub": "WhatsApp does the filtering",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free demo",
+  "see a lead scored live"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

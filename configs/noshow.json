@@ -1,0 +1,110 @@
+{
+ "slug": "noshow",
+ "url": "clinic-demo.fastapicloud.dev/saas",
+ "voice": "Empty chairs cost you money. Patients forget, and your schedule falls apart. No-Show Guard sends smart reminders twenty-four hours and two hours before every appointment — patients confirm or cancel by reply, in English or Arabic. It handles confirmations while you treat patients. Fewer no-shows, fuller days. Comment LINK for a free trial.",
+ "hook": [
+  {
+   "text": "EMPTY CHAIRS?",
+   "size": 150,
+   "color": "white"
+  },
+  {
+   "text": "NO-SHOWS.",
+   "size": 160,
+   "color": "red"
+  },
+  {
+   "text": "stop them",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "No-Show Guard",
+   "title": "Tomorrow's list",
+   "headline": "Reminders on autopilot",
+   "sub": "24h + 2h before every visit",
+   "rows": [
+    {
+     "label": "Appointments",
+     "value": "14"
+    },
+    {
+     "label": "Confirmed",
+     "value": "11",
+     "level": "teal"
+    },
+    {
+     "label": "No reply",
+     "value": "2",
+     "level": "amber"
+    },
+    {
+     "label": "Cancelled",
+     "value": "1",
+     "level": "gray"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Reminder",
+   "title": "Reminder sent",
+   "progress": [
+    3,
+    3
+   ],
+   "progress_label": "steps",
+   "headline": "Patients reply, you relax",
+   "sub": "confirm or cancel in one tap",
+   "rows": [
+    {
+     "label": "24h reminder sent",
+     "done": true
+    },
+    {
+     "label": "Patient confirmed",
+     "done": true
+    },
+    {
+     "label": "2h nudge queued",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "24h",
+   "sub": "first reminder"
+  },
+  {
+   "title": "2h",
+   "sub": "final nudge"
+  },
+  {
+   "title": "EN/AR",
+   "sub": "replies in both"
+  },
+  {
+   "title": "Auto",
+   "sub": "no staff needed"
+  }
+ ],
+ "headline": "Fill every slot",
+ "sub": "built for busy clinics",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free trial",
+  "cut no-shows this week"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "slug": "pocketstat",
+ "url": "PocketStat — Android app",
+ "voice": "Stats homework, no internet? PocketStat runs t-tests, ANOVA, chi-square, correlation, and regression — fully offline, zero permissions. Every result comes with a plain-English interpretation and hand-drawn charts. Import CSVs, tap through descriptives, and actually understand your p-values. Built for students, by a student. Comment LINK for the free APK.",
+ "hook": [
+  {
+   "text": "NO INTERNET?",
+   "size": 150,
+   "color": "white"
+  },
+  {
+   "text": "DO STATS.",
+   "size": 170,
+   "color": "teal"
+  },
+  {
+   "text": "offline app",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "PocketStat",
+   "title": "t-test result",
+   "headline": "Real stats, offline",
+   "sub": "t-test · ANOVA · chi-square",
+   "rows": [
+    {
+     "label": "t",
+     "value": "2.84"
+    },
+    {
+     "label": "p",
+     "value": "0.006",
+     "level": "teal"
+    },
+    {
+     "label": "Result",
+     "value": "Significant",
+     "level": "teal"
+    },
+    {
+     "label": "Effect size",
+     "value": "d = 0.72"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Tests",
+   "title": "5 tests inside",
+   "progress": [
+    5,
+    5
+   ],
+   "progress_label": "tests",
+   "headline": "Plain-English results",
+   "sub": "interpretations included",
+   "rows": [
+    {
+     "label": "t-test",
+     "done": true
+    },
+    {
+     "label": "One-way ANOVA",
+     "done": true
+    },
+    {
+     "label": "Chi-square",
+     "done": true
+    },
+    {
+     "label": "Correlation",
+     "done": true
+    },
+    {
+     "label": "Regression",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Offline",
+   "sub": "zero permissions"
+  },
+  {
+   "title": "5 tests",
+   "sub": "+ descriptives"
+  },
+  {
+   "title": "Charts",
+   "sub": "histogram · boxplot"
+  },
+  {
+   "title": "CSV",
+   "sub": "import data"
+  }
+ ],
+ "headline": "Your pocket lab",
+ "sub": "free Android APK",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free APK",
+  "comment for download link"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

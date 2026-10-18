@@ -1,0 +1,117 @@
+{
+ "slug": "zakatcalc",
+ "url": "ZakatCalc PK — Android app",
+ "voice": "Zakat math stressing you out? ZakatCalc PK does it right — cash, gold, silver, business assets, minus liabilities, with live gold rates and the correct nisab. Nisab auto-picked from gold or silver — whichever is lower, as it should be. Ushr for crops too, in Urdu or English. Comment LINK for the free APK.",
+ "hook": [
+  {
+   "text": "ZAKAT MATH?",
+   "size": 160,
+   "color": "white"
+  },
+  {
+   "text": "DONE RIGHT.",
+   "size": 160,
+   "color": "teal"
+  },
+  {
+   "text": "free app",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "ZakatCalc PK",
+   "title": "Your zakat",
+   "headline": "Live gold rates",
+   "sub": "nisab auto-calculated",
+   "rows": [
+    {
+     "label": "Total assets",
+     "value": "Rs 850,000"
+    },
+    {
+     "label": "Liabilities",
+     "value": "Rs 50,000"
+    },
+    {
+     "label": "Nisab",
+     "value": "Silver · met",
+     "level": "teal"
+    },
+    {
+     "label": "Zakat due",
+     "value": "Rs 20,000",
+     "level": "teal"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Assets",
+   "title": "5 categories",
+   "progress": [
+    5,
+    5
+   ],
+   "progress_label": "added",
+   "headline": "Everything counts",
+   "sub": "Urdu + English",
+   "rows": [
+    {
+     "label": "Cash added",
+     "done": true
+    },
+    {
+     "label": "Gold added",
+     "done": true
+    },
+    {
+     "label": "Silver added",
+     "done": true
+    },
+    {
+     "label": "Business stock",
+     "done": true
+    },
+    {
+     "label": "Ushr (crops)",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Live rates",
+   "sub": "gold · silver"
+  },
+  {
+   "title": "Nisab",
+   "sub": "auto, correct"
+  },
+  {
+   "title": "Ushr",
+   "sub": "5% / 10%"
+  },
+  {
+   "title": "Urdu",
+   "sub": "RTL mode"
+  }
+ ],
+ "headline": "Zakat, the right way",
+ "sub": "free Android APK",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free APK",
+  "comment for download link"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

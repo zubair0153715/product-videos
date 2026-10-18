@@ -1,0 +1,124 @@
+{
+ "slug": "receptionist",
+ "url": "clinic-demo.fastapicloud.dev/receptionist",
+ "voice": "Missed call, missed patient. Your clinic's phone rings at midnight and nobody answers. This AI receptionist books appointments on WhatsApp in English and Arabic, twenty-four seven — treatments, timings, rescheduling, cancellations. It answers in seconds, handles rush hours and holidays, and never takes a day off. Every booking lands in your inbox. Comment LINK for a free live demo.",
+ "hook": [
+  {
+   "text": "MISSED CALL?",
+   "size": 160,
+   "color": "white"
+  },
+  {
+   "text": "LOST PATIENT.",
+   "size": 150,
+   "color": "red"
+  },
+  {
+   "text": "fix it",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "AI Receptionist",
+   "title": "Live booking",
+   "headline": "Books on WhatsApp 24/7",
+   "sub": "English + Arabic",
+   "rows": [
+    {
+     "label": "Treatment",
+     "value": "Teeth cleaning"
+    },
+    {
+     "label": "Day",
+     "value": "Tomorrow"
+    },
+    {
+     "label": "Time",
+     "value": "4:30 PM"
+    },
+    {
+     "label": "Language",
+     "value": "EN / AR"
+    },
+    {
+     "label": "Status",
+     "value": "Confirmed",
+     "level": "teal"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Tonight",
+   "title": "While you slept",
+   "progress": [
+    6,
+    6
+   ],
+   "progress_label": "tasks",
+   "headline": "Zero missed calls",
+   "sub": "every chat in your inbox",
+   "rows": [
+    {
+     "label": "Booking confirmed",
+     "done": true
+    },
+    {
+     "label": "Reschedule handled",
+     "done": true
+    },
+    {
+     "label": "Price question answered",
+     "done": true
+    },
+    {
+     "label": "Location shared",
+     "done": true
+    },
+    {
+     "label": "Handoff to staff",
+     "done": true
+    },
+    {
+     "label": "Follow-up queued",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Booking",
+   "sub": "treatment to time"
+  },
+  {
+   "title": "Reschedule",
+   "sub": "no phone tag"
+  },
+  {
+   "title": "Pricing",
+   "sub": "answered instantly"
+  },
+  {
+   "title": "Handoff",
+   "sub": "human when needed"
+  }
+ ],
+ "headline": "Your front desk, automated",
+ "sub": "built for Gulf clinics",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free live demo",
+  "see it book in 60 seconds"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

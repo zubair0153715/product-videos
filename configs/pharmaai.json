@@ -1,0 +1,108 @@
+{
+ "slug": "pharmaai",
+ "url": "clinic-demo.fastapicloud.dev/pharma-ai",
+ "voice": "Pharmacology doubt at 2am? PharmaAI answers from a real textbook — Basic and Clinical Pharmacology — with inline citations, so you can verify every line. Ask about mechanisms, toxicities, interactions. Two thousand-plus text chunks searched in seconds — upload your own PDFs too. A study aid for pharmacy students, not medical advice. Comment LINK to ask your first question.",
+ "hook": [
+  {
+   "text": "2AM DOUBT?",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "ASK THE BOOK.",
+   "size": 150,
+   "color": "teal"
+  },
+  {
+   "text": "cited answer",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "PharmaAI",
+   "title": "Answered with citations",
+   "headline": "Textbook answers, cited",
+   "sub": "2199 chunks · BM25 + AI",
+   "rows": [
+    {
+     "label": "Question",
+     "value": "Aminoglycoside toxicity?"
+    },
+    {
+     "label": "Sources",
+     "value": "3 citations",
+     "level": "teal"
+    },
+    {
+     "label": "Answer time",
+     "value": "8 seconds"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Ask anything",
+   "title": "Tonight's session",
+   "progress": [
+    4,
+    4
+   ],
+   "progress_label": "topics",
+   "headline": "Study at 2am",
+   "sub": "mechanisms · toxicity · interactions",
+   "rows": [
+    {
+     "label": "Mechanism explained",
+     "done": true
+    },
+    {
+     "label": "Toxicity covered",
+     "done": true
+    },
+    {
+     "label": "Interaction checked",
+     "done": true
+    },
+    {
+     "label": "Citation verified",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Cited",
+   "sub": "every claim"
+  },
+  {
+   "title": "Textbook",
+   "sub": "2018 edition"
+  },
+  {
+   "title": "Upload",
+   "sub": "your PDFs"
+  },
+  {
+   "title": "Free",
+   "sub": "study aid"
+  }
+ ],
+ "headline": "Your pharmacology tutor",
+ "sub": "verify everything",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Ask your first question",
+  "free for students"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

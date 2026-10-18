@@ -1,0 +1,17 @@
+# Build artifacts — rendered videos/images, never commit
+*.mp4
+*.png
+*.jpg
+*.mp3
+*.wav
+list.txt
+
+# Python
+__pycache__/
+*.pyc
+.venv*/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

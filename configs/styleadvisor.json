@@ -1,0 +1,113 @@
+{
+ "slug": "styleadvisor",
+ "url": "clinic-demo.fastapicloud.dev/style",
+ "voice": "Which beard actually suits your face? Style Advisor analyzes your photo and measurements — face shape, skin season, occasion — then ranks six beard styles, six moustaches, hairstyles, and outfits picked for you. BMI fit tips and a best-pick combo included — grooming, decoded. No more guessing at the barber. Comment LINK for your free style report.",
+ "hook": [
+  {
+   "text": "WRONG BEARD?",
+   "size": 150,
+   "color": "white"
+  },
+  {
+   "text": "FIX IT.",
+   "size": 170,
+   "color": "teal"
+  },
+  {
+   "text": "free report",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "Style Advisor",
+   "title": "Your analysis",
+   "headline": "Ranked for YOUR face",
+   "sub": "photo + questionnaire",
+   "rows": [
+    {
+     "label": "Face shape",
+     "value": "Oval"
+    },
+    {
+     "label": "Skin season",
+     "value": "Warm autumn"
+    },
+    {
+     "label": "Best beard",
+     "value": "#2 of 6",
+     "level": "teal"
+    },
+    {
+     "label": "Best combo",
+     "value": "picked",
+     "level": "teal"
+    }
+   ]
+  },
+  {
+   "type": "checklist",
+   "header": "Report",
+   "title": "6 picks inside",
+   "progress": [
+    4,
+    4
+   ],
+   "progress_label": "sections",
+   "headline": "Barber-ready picks",
+   "sub": "occasion outfits too",
+   "rows": [
+    {
+     "label": "Beard ranked",
+     "done": true
+    },
+    {
+     "label": "Moustache ranked",
+     "done": true
+    },
+    {
+     "label": "Hairstyle picked",
+     "done": true
+    },
+    {
+     "label": "Outfit matched",
+     "done": true
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "Beard",
+   "sub": "6 ranked"
+  },
+  {
+   "title": "Moustache",
+   "sub": "6 ranked"
+  },
+  {
+   "title": "Hair",
+   "sub": "face-matched"
+  },
+  {
+   "title": "Outfit",
+   "sub": "occasion picks"
+  }
+ ],
+ "headline": "Grooming, decoded",
+ "sub": "no more guesswork",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free style report",
+  "upload your photo"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "slug": "reviews",
+ "url": "clinic-demo.fastapicloud.dev/reviews",
+ "voice": "Happy patients leave. Silent ones don't review. Review Booster texts every patient after their visit — five-star experiences go straight to Google, complaints come to you privately first. Your rating climbs while problems get fixed quietly. One link, zero awkward asking at the counter. More stars, fewer surprises. Comment LINK for a free trial.",
+ "hook": [
+  {
+   "text": "NO GOOGLE",
+   "size": 170,
+   "color": "white"
+  },
+  {
+   "text": "REVIEWS?",
+   "size": 170,
+   "color": "red"
+  },
+  {
+   "text": "get them",
+   "size": 90,
+   "color": "gray"
+  }
+ ],
+ "phone_scenes": [
+  {
+   "type": "rows",
+   "header": "Review Booster",
+   "title": "This week",
+   "headline": "Reviews on autopilot",
+   "sub": "ask every patient, every time",
+   "rows": [
+    {
+     "label": "Requests sent",
+     "value": "86"
+    },
+    {
+     "label": "5-star reviews",
+     "value": "31",
+     "level": "teal"
+    },
+    {
+     "label": "Google rating",
+     "value": "4.8 / 5",
+     "level": "teal"
+    },
+    {
+     "label": "Private feedback",
+     "value": "3",
+     "level": "amber"
+    }
+   ]
+  },
+  {
+   "type": "score",
+   "header": "Smart routing",
+   "score": 5,
+   "total": 5,
+   "note": "routed to Google",
+   "headline": "5 stars go public",
+   "sub": "complaints come to you first",
+   "findings": [
+    {
+     "label": "Loved the quick service",
+     "level": "teal"
+    },
+    {
+     "label": "Doctor was thorough",
+     "level": "teal"
+    },
+    {
+     "label": "Waiting room clean",
+     "level": "teal"
+    }
+   ]
+  }
+ ],
+ "cards": [
+  {
+   "title": "4-5 stars",
+   "sub": "go to Google"
+  },
+  {
+   "title": "1-3 stars",
+   "sub": "private inbox"
+  },
+  {
+   "title": "Auto ask",
+   "sub": "after every visit"
+  },
+  {
+   "title": "Track",
+   "sub": "rating dashboard"
+  }
+ ],
+ "headline": "Grow your stars safely",
+ "sub": "no fake reviews, ever",
+ "cta": [
+  "Comment",
+  "LINK",
+  "Free trial",
+  "more 5-stars this month"
+ ],
+ "durations": {
+  "hook": 3.5,
+  "phone": 7.25,
+  "cards": 6.0,
+  "cta": 6.0
+ }
+}
